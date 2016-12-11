@@ -1,0 +1,20 @@
+{
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "semi": 2,
+    "no-console": 0
+  },
+  "globals": {
+    "console": true,
+    "window": true,
+    "document": true,
+    "World": true
+  }
+}
